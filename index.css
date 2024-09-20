@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Inter-Variable;
+  src: url(Inter-VariableFont_slnt\wght.ttf);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(Inter-SemiBold.ttf);
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+* {
+  font-family: Inter-Regular;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.content {
+  border-radius: 8px;
+  border-style: none;
+  padding: 7%;
+  background-color: hsl(0, 0%, 12%);
+  width: 100%;
+}
+
+.content img {
+  border-radius: 50%;
+  width: 29%;
+}
+
+#london {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  border: none;
+  padding: 0px;
+  margin: 0%;
+  font-size: 14px;
+  position: relative;
+  bottom: 17px;
+}
+
+
+#front {
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+  font-weight: 500;
+}
+
+.same{ border-style: none;
+  padding: 5%;
+  margin: 5%;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px }
+
+  a:link { text-decoration: none; }
